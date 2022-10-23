@@ -1,4 +1,3 @@
 # cropup
 
-https://user-images.githubusercontent.com/58055691/197389767-86eb4184-a186-46e4-97ef-15f1546b80b7.mp4
-
+https://user-images.githubusercontent.com/58055691/197408019-9c8ea4ff-cec8-4675-abf7-c45a3f090800.mp4
