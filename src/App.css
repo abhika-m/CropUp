@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.button {
+  border-radius: 7px;
+  color: #FFFFFF ;
+  background-color: #75A28E;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px ;
+  cursor: pointer;
+  width: 200px;
+  height: 80px;
+  margin-bottom: 60px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
