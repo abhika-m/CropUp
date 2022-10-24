@@ -1,3 +1,15 @@
 # cropup
 
 https://user-images.githubusercontent.com/58055691/197408019-9c8ea4ff-cec8-4675-abf7-c45a3f090800.mp4
+
+## Inspiration
+In the US alone, farmers and gardeners end up throwing away about 30% of their yields, a value that adds up to $48.3 billion dollars thrown away each year. Many of these crops are wasted due to the lack of information on their specific environments. CropUp helps reduce this waste and spreads knowledge on which crops should be cultivated in a specific region. CropUp also makes it easy for beginners to pick up gardening, handpicking crops for the user's specific region. 
+
+## What it does
+CropUp shares the optimal crops to grow in a certain region by calculating a user's specific plant hardiness zone. The hardiness zone refers to a ranking established by the USDA which divides regions and crops, ranked anywhere from 2A to 13B, based on environmental conditions. These include average temperature, humidity, frost patterns and more. By using CropUp, users will be able to determine their specific hardiness zone for their city, while also learning what plans are best suited for said zone. What makes CropUp unique is that it utilizes a machine learning algorithim that determines the user's zone based on current weather trends, adjusted for the changing climate. CropUp provides both farmers and recreational gardeners with information on which crops are best suited for their region to promote green eating and less food waste.
+
+## How its built
+CropUp was developed in multiple stages. The first thing that was done was creating the UI using react js and figma for design. Then the machine learning model was created, using sklearn and the Random Forest Classifier model on python. This machine learning model was then connected to our front end using a fastAPI to provide the plant hardiness zone using response, temperature, humidity, dew, and solar energy as its parameters. I used VisualCrossingWebServices for an API to provide the ML model with the said parameters using the user's zipcode input to query for the parameters which were then sent to the model to return zone predictions. Zone predictions were used to provide optimal crops to cultivate based on an API containing the ideal crops to grow in each region.
+
+## What's next for CropUp
+CropUp has many plans for the future. Firstly, I would like to gather more data to make our ML model much more accurate. This will be done with lots of research on current weather conditions and zone descriptions as well as possible API integration to constantly update this dataset as weather changes. Secondly, I would like to customize our application further for those using it for business purposes vs those using it for recreational purposes. I also plan on creating a mobile application for CropUp as a supplement to the web application. Further in the future, I would also like to incorporate image processing to help inform users on when its time to pick the fruits and vegetables they've been growing to avoid them from going bad. I hope to achieve these goals in the near future and plan to keep evolving!
